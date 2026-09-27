@@ -5,7 +5,8 @@ Paper: https://arxiv.org/abs/2607.22801
 DY-LUT is an underwater image enhancement model based on depth-aware lookup tables
 in YCbCr space.
 
-Videos: https://oceanz9639.github.io/DY-LUT/
+<video src="demo/videos/original_vs_dylut.mp4" controls></video>
+
 The released checkpoint is `checkpoints/paper_release/best_model.pth`.
 
 ## Installation
