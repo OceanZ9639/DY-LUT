@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DY-LUT demos</title>
+<style>
+  body { margin: 0; background: #fff; color: #1a2328; font-family: "Segoe UI", sans-serif; font-size: 18px; line-height: 1.5; }
+  main { width: min(960px, calc(100% - 32px)); margin: 28px auto 64px; }
+  h1 { font-size: 34px; margin: 0 0 8px; }
+  a { color: #0c6b5c; }
+  figure { margin: 28px 0; }
+  video, img { width: 100%; height: auto; display: block; background: #000; }
+  figcaption { margin-top: 8px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>DY-LUT demos</h1>
+  <p><a href="https://arxiv.org/abs/2607.22801">Paper</a> · <a href="https://github.com/OceanZ9639/DY-LUT">Code</a></p>
+
+  <figure>
+    <video controls playsinline preload="metadata" src="demo/videos/original_vs_dylut.mp4"></video>
+    <figcaption>Original and DY-LUT, side by side.</figcaption>
+  </figure>
+  <figure>
+    <video controls playsinline preload="metadata" src="demo/videos/original.mp4"></video>
+    <figcaption>Original.</figcaption>
+  </figure>
+  <figure>
+    <video controls playsinline preload="metadata" src="demo/videos/dylut.mp4"></video>
+    <figcaption>DY-LUT.</figcaption>
+  </figure>
+  <figure>
+    <img src="demo/figures/fig2.png" alt="DY-LUT overview">
+    <figcaption>Model overview.</figcaption>
+  </figure>
+</main>
+</body>
+</html>
