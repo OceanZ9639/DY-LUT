@@ -1,4 +1,4 @@
-# DY-LUT
+# DY-LUT: Depth-Aware YCbCr Lookup Tables for Real-Time Underwater Image Enhancement
 
 Paper: https://arxiv.org/abs/2607.22801
 
@@ -34,19 +34,6 @@ python3 inference.py \
 
 Input images and depth maps are matched by filename stem. Remove `--no_auto_scale`
 to enable adaptive downsampling for high-resolution images.
-
-## Data preparation
-
-Prepare paired images, depth maps, and gradient maps for training:
-
-```bash
-python3 prepare_uieb_finetune.py \
-  --raw_dir /path/to/raw_images \
-  --reference_dir /path/to/reference_images \
-  --output_dir /path/to/prepared_data \
-  --depth_anything_root /path/to/Depth-Anything-V2 \
-  --depth_checkpoint /path/to/depth_anything_v2_vitl.pth
-```
 
 ## Training
 
